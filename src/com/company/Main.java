@@ -1,8 +1,10 @@
 package com.company;
 
 public class Main {
-
     public static void main(String[] args) {
-        System.out.println("bobo");
+        /*Encode encode = new Encode();
+        encode.start();*/
+        Checksum checksum = new Checksum();
+        checksum.start();
     }
 }
